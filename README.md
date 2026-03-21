@@ -18,16 +18,16 @@ b.Open index.html in any modern web browser.
 c.Start conquering your tasks!
 
     Lessons Learnt
-1. State-First Rendering
+1. State-First Rendering:
 Instead of manually adding or removing HTML elements whenever a button is clicked, I learned to update the State
 (the JavaScript array) first, and then let a single render function handle the UI. This approach prevents the UI and data from
 getting out of sync.
 
-3. Managing Event Bubbling
+3. Managing Event Bubbling:
 I discovered that clicking a "Delete" button inside a clickable list item triggers both actions. Using e.stopPropagation()
 taught me how to control the flow of events in the DOM tree so that deleting a task doesn't accidentally mark it as completed.
 
-5. User Experience Through Context
+5. User Experience Through Context:
 By implementing specific messages for different empty categories (like "No Achievement Yet" for the Done tab),
 I learned that small text changes can significantly improve how "alive" an app feels. It guides the user on what to do next
 rather than leaving them with a blank screen.
