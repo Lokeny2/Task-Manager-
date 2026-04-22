@@ -1,12 +1,12 @@
 /* --- Variables --- */
 :root {
-    --bg-body: #020617;      /* Midnight */
-    --bg-card: #0f172a;      /* Slate */
-    --accent: #818cf8;       /* Indigo */
-    --text-main: #f1f5f9;    /* Cloud white */
-    --text-muted: #64748b;   /* Muted Slate */
-    --success: #10b981;      /* Emerald */
-    --danger: #ef4444;       /* Rose red */
+    --bg-body: #020617;      
+    --bg-card: #0f172a;      
+    --accent: #818cf8;       
+    --text-main: #f1f5f9;    
+    --text-muted: #64748b;  
+    --success: #10b981;      
+    --danger: #ef4444;       
 }
 
 /* --- Base Layout --- */
@@ -16,7 +16,7 @@ body {
     color: var(--text-main);
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 82px;
     margin: 0;
 }
 
